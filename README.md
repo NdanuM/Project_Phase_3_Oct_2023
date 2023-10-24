@@ -42,7 +42,7 @@ iii. Random Forest Modelling
 * Establish Baseline Random Forest model
 * Create Optimal Random Forest Iterative Model - using GridSearchCV
 * Investigate Feature Importances of the Random Forest Models
-* 
+  
 iv. Evaluate the Overall Best Model
 
 ## Results
@@ -53,26 +53,26 @@ Image by ar130405 from Pixabay
 Best Performing model has;
 * Log loss: 0.433
 * Parameters: 
-       - Scaled data
-       - Increased regularization 
+       - Scaled data;
+       - Increased regularization; 
        - 'Saga' solver
   
 **Decision Trees Modelling:**
 Best Performing model has;
 * Log loss: 0.406
 * Parameters: 
-        -Max_depth=6
-        -Min_samples_split=91 
+        -Max_depth=6;
+        -Min_samples_split=91;
         -Min_samples_leaf=16
 
 **Random Forests Modelling:**
 Best Performing model has;
 * Log loss: 0.36
 * Parameters: 
-        -Criterion='entropy'
-        -Max_depth=9
-        -Min_samples_leaf=16
-        -Min_samples_split=91
+        -Criterion='entropy';
+        -Max_depth=9;
+        -Min_samples_leaf=16;
+        -Min_samples_split=91;
         -n_estimators=100
 
 **Feature Importance for Random Forest Model**
@@ -80,6 +80,7 @@ Best Performing model has;
 ![image](https://github.com/NdanuM/Project_Phase_3_Oct_2023/assets/133153210/42bec559-78a3-4625-94be-1907038920ad)
 
 Age is the feature with highest importance.
+
 
 **Results: Overall Best Model Evaluation - Optimal Random Forest Model**
 
