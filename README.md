@@ -1,6 +1,6 @@
 # Bank Customers Attrition Prediction Presentation
 ![image](https://github.com/NdanuM/Project_Phase_3_Oct_2023/assets/133153210/f98fd4cf-dce0-460a-acd9-a0f7cacf9e4f)
-
+Image by Tumisu from Pixabay
 
 Author: Ndanu Mwatu
 
@@ -41,6 +41,7 @@ iv. Evaluate the Overall Best Model
 
 ## Results
 ![image](https://github.com/NdanuM/Project_Phase_3_Oct_2023/assets/133153210/74e8678c-e29c-4e03-b9b3-88822a01c605)
+Image by ar130405 from Pixabay
 
 **Logistic Regression Modelling:** 
 Best Performing model has;
@@ -72,17 +73,20 @@ Best Performing model has;
 
 ![image](https://github.com/NdanuM/Project_Phase_3_Oct_2023/assets/133153210/42bec559-78a3-4625-94be-1907038920ad)
 
+Age is the feature with highest importance.
+
 **Results: Overall Best Model Evaluation - Optimal Random Forest Model**
-Training Precision:  0.866
+
+Training Precision:  0.866; 
 Testing Precision:  0.8591
 
-Training Recall:  0.394
+Training Recall:  0.394; 
 Testing Recall:  0.380
 
-Training Accuracy:  0.863
+Training Accuracy:  0.863; 
 Testing Accuracy:  0.864
 
-Training F1-Score:  0.541
+Training F1-Score:  0.541; 
 Testing F1-Score:  0.527
 
 ## Conclusions/ Recommendations
@@ -97,6 +101,9 @@ For additional insights, further analysis is proposed in the following areas;
 * Further tuning is proposed of the hyperparameters of the best performing model in order to lead to better performance metrics particularly the f1 Score. This further analysis could include use of XGBoost.
 * Adjustment of the model's Recall and Precision could be done in line with the focus of the Bank. A further discussion with the Bank to understand their needs and focus is needed e.g. are the intervention measures likely to be too costly, in which case, the client would want a model that is even more precise?
 
+
+
+
 ### For More Information
 See the full analysis in the Jupyter Notebook.
 
@@ -108,6 +115,7 @@ For additional information contact Mwatu.Ndanu@student.moringaschool.com
 * data
 * images
 * README.md
+
 
 
 
