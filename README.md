@@ -1,8 +1,9 @@
 # Bank Customers Attrition Prediction Presentation
+Author: Ndanu Mwatu
+
 ![image](https://github.com/NdanuM/Project_Phase_3_Oct_2023/assets/133153210/f98fd4cf-dce0-460a-acd9-a0f7cacf9e4f)
 Image by Tumisu from Pixabay
 
-Author: Ndanu Mwatu
 
 ## Overview
 This project focuses on solving a business problem using classification models through  an iterative approach. 
