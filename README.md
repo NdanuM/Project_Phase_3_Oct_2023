@@ -33,13 +33,16 @@ Data leakage: Preprocessing is done after splitting the data into train and test
 i. Logistic Regression Modelling
 * Establish Baseline Logistic Regression model
 * Create Iterative Logistic Regression models - and determine the best one 
+
 ii. Decision Trees Modelling
 * Establish Baseline Decision Tree model
-    -Create Iterative Decision Tree models - and determine the best one 
+* Create Iterative Decision Tree models - and determine the best one
+  
 iii. Random Forest Modelling
-    -Establish Baseline Random Forest model
-    -Create Optimal Random Forest Iterative Model - using GridSearchCV
-    -Investigate Feature Importances of the Random Forest Models
+* Establish Baseline Random Forest model
+* Create Optimal Random Forest Iterative Model - using GridSearchCV
+* Investigate Feature Importances of the Random Forest Models
+* 
 iv. Evaluate the Overall Best Model
 
 ## Results
