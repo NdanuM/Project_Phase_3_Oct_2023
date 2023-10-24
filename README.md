@@ -53,27 +53,27 @@ Image by ar130405 from Pixabay
 Best Performing model has;
 * Log loss: 0.433
 * Parameters: 
-       - Scaled data;
-       - Increased regularization; 
-       - 'Saga' solver
+        Scaled data;
+        Increased regularization; 
+        'Saga' solver
   
 **Decision Trees Modelling:**
 Best Performing model has;
 * Log loss: 0.406
 * Parameters: 
-        -Max_depth=6;
-        -Min_samples_split=91;
-        -Min_samples_leaf=16
+        Max_depth=6;
+        Min_samples_split=91;
+        Min_samples_leaf=16
 
 **Random Forests Modelling:**
 Best Performing model has;
 * Log loss: 0.36
 * Parameters: 
-        -Criterion='entropy';
-        -Max_depth=9;
-        -Min_samples_leaf=16;
-        -Min_samples_split=91;
-        -n_estimators=100
+        Criterion='entropy';
+        Max_depth=9;
+        Min_samples_leaf=16;
+        Min_samples_split=91;
+        n_estimators=100
 
 **Feature Importance for Random Forest Model**
 
@@ -119,8 +119,8 @@ For additional information contact Mwatu.Ndanu@student.moringaschool.com
 ### Repository Structure
 * Bank_Customers_Attrition_Prediction.ipynb
 * Bank_Customers_Attrition_Prediction_Presentation.pdf
-* data
-* images
+* Data
+* Images
 * README.md
 
 
