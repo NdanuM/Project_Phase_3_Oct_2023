@@ -23,16 +23,18 @@ Data leakage: Preprocessing is done after splitting the data into train and test
 
 ## Data Modeling and Evaluation
 3 types of models are built as listed below;
+
 1. Logistic regression models
-2.Decision Trees models
+2. Decision Trees models
 3. Random Forest models
 
 **An iterative approach is followed in the following fashion;**
+
 i. Logistic Regression Modelling
-    -Establish Baseline Logistic Regression model
-    -Create Iterative Logistic Regression models - and determine the best one 
+* Establish Baseline Logistic Regression model
+* Create Iterative Logistic Regression models - and determine the best one 
 ii. Decision Trees Modelling
-    -Establish Baseline Decision Tree model
+* Establish Baseline Decision Tree model
     -Create Iterative Decision Tree models - and determine the best one 
 iii. Random Forest Modelling
     -Establish Baseline Random Forest model
