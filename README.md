@@ -70,4 +70,46 @@ Best Performing model has;
 
 **Feature Importance for Random Forest Model**
 
+![image](https://github.com/NdanuM/Project_Phase_3_Oct_2023/assets/133153210/42bec559-78a3-4625-94be-1907038920ad)
 
+**Results: Overall Best Model Evaluation - Optimal Random Forest Model**
+Training Precision:  0.866
+Testing Precision:  0.8591
+
+Training Recall:  0.394
+Testing Recall:  0.380
+
+Training Accuracy:  0.863
+Testing Accuracy:  0.864
+
+Training F1-Score:  0.541
+Testing F1-Score:  0.527
+
+## Conclusions/ Recommendations
+1. The client  advised to make use of the overall best model to predict customers that are likely to leave the Bank and target intervention strategies. 
+
+2. This model may not be sufficient to decide on best candidates for provision of loans, thus the client should be cautious in utilising it as such.
+
+3. The client advised to pay attention to age of customers, credit_score, estimated salary and balance as features of importance when designing intervention strategies to retain customers.
+
+## Next Steps
+For additional insights, further analysis is proposed in the following areas;
+* Further tuning is proposed of the hyperparameters of the best performing model in order to lead to better performance metrics particularly the f1 Score. This further analysis could include use of XGBoost.
+* Adjustment of the model's Recall and Precision could be done in line with the focus of the Bank. A further discussion with the Bank to understand their needs and focus is needed e.g. are the intervention measures likely to be too costly, in which case, the client would want a model that is even more precise?
+
+### For More Information
+See the full analysis in the Jupyter Notebook.
+
+For additional information contact Mwatu.Ndanu@student.moringaschool.com
+
+### Repository Structure
+* Bank_Customers_Attrition_Prediction.ipynb
+* Bank_Customers_Attrition_Prediction_Presentation.pdf
+* data
+* images
+* README.md
+
+
+
+### References
+Images *(that are not visualizations generated from data)* are downloaded from www.pixabay.com
