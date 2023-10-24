@@ -1,5 +1,6 @@
 # Bank Customers Attrition Prediction Presentation
-<img src="image_investment-5318530_1280.jpg" width="400" height="50" align="left">
+![image](https://github.com/NdanuM/Project_Phase_3_Oct_2023/assets/133153210/f98fd4cf-dce0-460a-acd9-a0f7cacf9e4f)
+
 
 Author: Ndanu Mwatu
 
