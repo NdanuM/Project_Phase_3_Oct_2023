@@ -40,3 +40,34 @@ iii. Random Forest Modelling
 iv. Evaluate the Overall Best Model
 
 ## Results
+![image](https://github.com/NdanuM/Project_Phase_3_Oct_2023/assets/133153210/74e8678c-e29c-4e03-b9b3-88822a01c605)
+
+**Logistic Regression Modelling:** 
+Best Performing model has;
+* Log loss: 0.433
+* Parameters: 
+       - Scaled data
+       - Increased regularization 
+       - 'Saga' solver
+  
+**Decision Trees Modelling:**
+Best Performing model has;
+* Log loss: 0.406
+* Parameters: 
+        -Max_depth=6
+        -Min_samples_split=91 
+        -Min_samples_leaf=16
+
+**Random Forests Modelling:**
+Best Performing model has;
+* Log loss: 0.36
+* Parameters: 
+        -Criterion='entropy'
+        -Max_depth=9
+        -Min_samples_leaf=16
+        -Min_samples_split=91
+        -n_estimators=100
+
+**Feature Importance for Random Forest Model**
+
+
